@@ -7,5 +7,5 @@ wget https://images2.alphacoders.com/127/thumb-1920-1270806.jpg
 #flatpak install com.discordapp.Discord org.kde.krita com.spotify.Client com.valvesoftware.Steam flathub com.visualstudio.code -y 
 #cd ~/.config/ && mkdir openbox && cd ./openbox && touch autostart.sh && echo "pcmanfm --dekstop & nitrogen --restore & xfc4-panel & lxterminal & volumeicon & xcompmgr & " 
 #curl -L https://nixos.org/nix/install | sh && nix-env -i hyfetch 
-do-release-update -q 
+do-release-upgrade -q 
 echo "done"
