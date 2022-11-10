@@ -1,3 +1,5 @@
+sudo apt-get install software-properties-common &&
+sudo apt-get update &&
 sudo apt install neofetch xinit xcompmgr openbox nitrogen flatpak firefox pcmanfm lxtask lxappearance xfce4-panel xfce4-whiskermenu-plugin pop-icon-theme volumeicon-alsa alsa-base lxterminal openbox-menu -y &&
 sudo apt install vlc obs-studio libreoffice gimp rhythmbox gnome-calculator -y 
 wget https://images2.alphacoders.com/127/thumb-1920-1270806.jpg &&
