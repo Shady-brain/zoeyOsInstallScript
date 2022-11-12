@@ -1,6 +1,6 @@
 sudo apt-get install software-properties-common -y 
 sudo apt-get update 
-sudo apt install neofetch xinit xcompmgr openbox nitrogen flatpak firefox pcmanfm lxtask lxappearance xfce4-panel xfce4-whiskermenu-plugin pop-icon-theme volumeicon-alsa alsa-base lxterminal openbox-menu xfce4-clipman-plugin xfce4-battery-plugin xfce4-mpc-plugin xfce4-wavelan-plugin mpd -y 
+sudo apt curl install neofetch xinit xcompmgr openbox nitrogen flatpak firefox pcmanfm lxtask lxappearance xfce4-panel xfce4-whiskermenu-plugin pop-icon-theme volumeicon-alsa alsa-base lxterminal openbox-menu xfce4-clipman-plugin xfce4-battery-plugin xfce4-mpc-plugin xfce4-wavelan-plugin mpd -y 
 sudo apt install vlc obs-studio libreoffice gimp rhythmbox gnome-calculator -y
 mkdir ".wallpaper" 
 cd ~/.wallpaper
@@ -20,7 +20,7 @@ wget https://wallpapercave.com/uwp/uwp1531283.jpeg
 wget https://i.ytimg.com/vi/DfPDhvNjJZg/maxresdefault.jpg
 #flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
 #flatpak install com.discordapp.Discord org.kde.krita com.spotify.Client com.valvesoftware.Steam flathub com.visualstudio.code com.mastermindzh.tidal-hifi -y 
-#cd ~/.config/ && mkdir openbox && cd ./openbox && touch autostart.sh && echo "pcmanfm --dekstop & nitrogen --restore & xfc4-panel & lxterminal & volumeicon & xcompmgr & " 
+cd ~/.config/ && mkdir openbox && cd ./openbox && touch autostart.sh && echo "pcmanfm --dekstop & nitrogen --restore & xfc4-panel & lxterminal & volumeicon & xcompmgr & " 
 #curl -L https://nixos.org/nix/install | sh && nix-env -i hyfetch 
 do-release-upgrade -q 
 echo "done"
