@@ -19,7 +19,7 @@ wget https://t3.ftcdn.net/jpg/04/61/32/18/360_F_461321820_VxV6rrZlMXCIHkl28UF0Sk
 wget https://wallpapercave.com/uwp/uwp1531283.jpeg
 wget https://i.ytimg.com/vi/DfPDhvNjJZg/maxresdefault.jpg
 #flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
-#flatpak install com.discordapp.Discord org.kde.krita com.spotify.Client com.valvesoftware.Steam flathub com.visualstudio.code -y 
+#flatpak install com.discordapp.Discord org.kde.krita com.spotify.Client com.valvesoftware.Steam flathub com.visualstudio.code com.mastermindzh.tidal-hifi -y 
 #cd ~/.config/ && mkdir openbox && cd ./openbox && touch autostart.sh && echo "pcmanfm --dekstop & nitrogen --restore & xfc4-panel & lxterminal & volumeicon & xcompmgr & " 
 #curl -L https://nixos.org/nix/install | sh && nix-env -i hyfetch 
 do-release-upgrade -q 
