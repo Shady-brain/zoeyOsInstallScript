@@ -20,7 +20,7 @@ wget https://wallpapercave.com/uwp/uwp1531283.jpeg
 wget https://i.ytimg.com/vi/DfPDhvNjJZg/maxresdefault.jpg
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 
 sudo flatpak install com.discordapp.Discord org.kde.krita com.spotify.Client com.valvesoftware.Steam flathub com.visualstudio.code com.mastermindzh.tidal-hifi -y 
-cd ~/.config/ && mkdir openbox && cd ./openbox && touch autostart.sh && echo "pcmanfm --dekstop & nitrogen --restore & xfce4-panel & lxterminal & volumeicon & xcompmgr & " > ./autostart.sh
+cd ~/.config/ && mkdir openbox && cd ./openbox && touch autostart.sh && echo "pcmanfm --desktop & nitrogen --restore & xfce4-panel & lxterminal & volumeicon & xcompmgr & " > ./autostart.sh
 #curl -L https://nixos.org/nix/install | sh && nix-env -i hyfetch 
 do-release-upgrade -q 
 echo "done"
