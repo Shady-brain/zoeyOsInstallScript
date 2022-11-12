@@ -1,7 +1,7 @@
 sudo apt-get install software-properties-common -y 
 sudo apt-get update 
 sudo apt curl install neofetch xinit xcompmgr openbox nitrogen flatpak firefox pcmanfm lxtask lxappearance xfce4-panel xfce4-whiskermenu-plugin pop-icon-theme volumeicon-alsa alsa-base lxterminal openbox-menu xfce4-clipman-plugin xfce4-battery-plugin xfce4-mpc-plugin xfce4-wavelan-plugin mpd xfce4-settings -y 
-sudo apt install vlc obs-studio libreoffice gimp rhythmbox gnome-calculator -y
+sudo apt install thunderbird vlc obs-studio libreoffice gimp rhythmbox gnome-calculator -y
 mkdir ".wallpaper" 
 cd ~/.wallpaper
 wget https://images2.alphacoders.com/127/thumb-1920-1270806.jpg 
@@ -22,5 +22,6 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 sudo flatpak install com.discordapp.Discord org.kde.krita com.spotify.Client com.valvesoftware.Steam flathub com.visualstudio.code com.mastermindzh.tidal-hifi -y 
 cd ~/.config/ && mkdir openbox && cd ./openbox && touch autostart.sh && echo "pcmanfm --desktop & nitrogen --restore & xfce4-panel & lxterminal & volumeicon & xcompmgr & " > ./autostart.sh
 #curl -L https://nixos.org/nix/install | sh && nix-env -i hyfetch 
+sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt install ulauncher
 do-release-upgrade -q 
 echo "done"
