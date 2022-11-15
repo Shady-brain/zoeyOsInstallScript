@@ -5,6 +5,7 @@ sudo apt install thunderbird vlc obs-studio libreoffice gimp rhythmbox gnome-cal
 cd ..
 mkdir ".wallpaper" 
 cd ~/.wallpaper
+wget https://images2.alphacoders.com/120/1209113.jpg
 wget https://images2.alphacoders.com/127/thumb-1920-1270806.jpg 
 wget https://pbs.twimg.com/media/FZu_DQeXwAIMjkv?format=jpg&name=large
 wget https://cdn.wallpaperhub.app/cloudcache/d/f/b/9/7/3/dfb973eaff26dc001c23432d7f875a00e724e35c.jpg
